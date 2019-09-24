@@ -1,1 +1,1 @@
-# Tinycode
+# Tinycode - Bootstrap-portfolio homework
