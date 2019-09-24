@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        header {
+            border-bottom: 1px solid #cccccc;
+        }
+        
+        .heading {
+            align-items: center;
+            background-color: #4aaaa5;
+        }
+        /**
+            *For the navbar I needed to give it a padding 0 in order for the navbar class heading inside of the h4 to fill-in the entire content of the navbar.
+            ***/
+        
+        .navbar {
+            padding: 0;
+        }
+        /**Header heading**/
+        
+        h4 {
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding: 15px;
+        }
+        /***Main-content heading***/
+        
+        h3 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border-bottom: 2px solid #dddddd;
+            padding-bottom: 20px;
+            font-weight: bold;
+            color: #4aaaa5;
+        }
+        
+        section {
+            background-color: rgb(233, 233, 233);
+        }
+        
+        .main-content {
+            background-color: white;
+            margin: 50px 0;
+            padding: 20px;
+        }
+        
+        p {
+            line-height: 2.5em;
+            color: #777777;
+        }
+        
+        footer {
+            text-align: center;
+            border-top: 8px solid #4aaaa5;
+        }
+        
+        .row {
+            margin-bottom: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar d-flex">
+                <nav class="heading">
+                    <h4>Kelvin Almonte</h4>
+                </nav>
+                <!-- <span class="navbar-brand mb-0 h1">Kelvin Almonte</span> -->
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="container overflow-auto">
+            <div class="main-content shadow p-3 mb-5 bg-white rounded">
+                <!-- shadow-lg p-3 mb-5 bg-white rounded -->
+                <div class="row-1">
+                    <h3>Portfolio</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="http://placehold.it/180x180" class="rounded float-left" alt="...">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="http://placehold.it/180x180" class="rounded float-left" alt="...">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="http://placehold.it/180x180" class="rounded float-left" alt="...">
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="http://placehold.it/180x180" class="rounded float-left" alt="...">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="http://placehold.it/180x180" class="rounded float-left" alt="...">
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="http://placehold.it/180x180" class="rounded float-left" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer mt-auto py-3 bg-dark text-white-50">
+        &copy Kelvin Almonte
+    </footer>
+</body>
+
+</html>
