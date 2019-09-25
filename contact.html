@@ -18,7 +18,6 @@
         }
         
         .heading {
-            align-items: center;
             background-color: #4aaaa5;
         }
         /**
@@ -47,23 +46,12 @@
             color: #4aaaa5;
         }
         
-        section {
-            background-color: rgb(233, 233, 233);
-        }
-        
         .main-content {
-            background-color: white;
             margin: 50px 0;
             padding: 20px;
         }
         
-        p {
-            line-height: 2.5em;
-            color: #777777;
-        }
-        
         footer {
-            text-align: center;
             border-top: 8px solid #4aaaa5;
         }
     </style>
@@ -79,22 +67,22 @@
                 <!-- <span class="navbar-brand mb-0 h1">Kelvin Almonte</span> -->
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">About</a>
+                        <a class="nav-link active text-secondary" href="index.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link text-secondary" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link text-secondary" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section>
+    <section class="bg-light text-dark">
         <div class="container overflow-auto">
-            <div class="main-content">
+            <div class="main-content shadow p-3 mb-5 bg-white rounded">
 
                 <h3>Contact</h3>
                 <form>
@@ -117,7 +105,7 @@
         </div>
     </section>
 
-    <footer class="footer mt-auto py-3 bg-dark text-white-50">
+    <footer class="footer mt-auto py-3 bg-dark text-white-50 text-center">
         &copy Kelvin Almonte
     </footer>
 </body>
