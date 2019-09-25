@@ -54,9 +54,15 @@
         footer {
             border-top: 8px solid #4aaaa5;
         }
+        /**Added a lin-break class in the div col-, col-sm, col-md, col-lg to give a margin top and bottom space in between projects. Looks nice and neat**/
         
-        .row {
-            margin-bottom: 10px;
+        .row,
+        .line-break {
+            margin: 10px 0;
+        }
+        
+        h5 {
+            background-color: #4aaaa5;
         }
     </style>
 
@@ -93,31 +99,56 @@
                     <h3>Portfolio</h3>
                 </div>
                 <div class="row">
-                    <div class="col-md-3">
-                        <img src="http://placehold.it/180x180" class="rounded float-left" alt="...">
+                    <div class="col-12 col-sm-10 col-md-5 col-lg-4 line-break">
+                        <div class="card" style="width: 17rem;">
+                            <img class="card-img-top" src="./images/baseball.jpg" alt="Card image cap" height="180px" width="180px">
+
+                            <h5 class="card-title text-center text-light">Baseball Game</h5>
+                        </div>
                     </div>
-                    <div class="col-md-3">
-                        <img src="http://placehold.it/180x180" class="rounded float-left" alt="...">
+                    <br>
+                    <div class="col-12 col-sm-10 col-md-5 col-lg-4 line-break">
+                        <div class="card" style="width: 17rem;">
+                            <img class="card-img-top" src="./images/business.jpg" alt="Card image cap" height="180px" width="180px">
+
+                            <h5 class="card-title text-center text-light">iChat</h5>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-3">
-                        <img src="http://placehold.it/180x180" class="rounded float-left" alt="...">
+                    <div class="col-12 col-sm-12 col-md-5 col-lg-4 line-break">
+                        <div class="card" style="width: 17rem;">
+                            <img class="card-img-top" src="./images/dog.jpg" alt="Card image cap" height="180px" width="180px">
+
+                            <h5 class="card-title text-center text-light">Temple Dog</h5>
+                        </div>
                     </div>
-                    <div class="col-sm-3">
-                        <img src="http://placehold.it/180x180" class="rounded float-left" alt="...">
+
+                    <div class="col-12 col-sm-12 col-md-5 col-lg-4 line-break">
+                        <div class="card" style="width: 17rem;">
+                            <img class="card-img-top" src="./images/nightlife.jpg" alt="Card image cap" height="180px" width="180px">
+
+                            <h5 class="card-title text-center text-light">Match</h5>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-3">
-                        <img src="http://placehold.it/180x180" class="rounded float-left" alt="...">
+                    <div class="col-12 col-sm-10 col-md-5 col-lg-4 line-break">
+                        <div class="card" style="width: 17rem;">
+                            <img class="card-img-top" src="./images/sports.jpg" alt="Card image cap" height="180px" width="180px">
+
+                            <h5 class="card-title text-center text-light">Ninja Jump</h5>
+                        </div>
                     </div>
-                    <div class="col-sm-3">
-                        <img src="http://placehold.it/180x180" class="rounded float-left" alt="...">
-                    </div>
+                    <!-- <div class="col-12 col-sm-10 col-md-4 col-lg-4">
+                        <div class="card" style="width: 15rem;">
+                            <img class="card-img-top" src="./images/baseball.jpg" alt="Card image cap">
+
+                            <h5 class="card-title">Baseball Game</h5>
+
+                        </div>
+                    </div> -->
                 </div>
-            </div>
-            <div class="row">
             </div>
         </div>
     </section>
